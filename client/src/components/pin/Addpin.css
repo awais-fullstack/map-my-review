@@ -1,0 +1,31 @@
+form {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: solid 1px grey;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 12px;
+    color: lightgray;
+}
+
+.select {
+    border: solid 1px;
+}
+
+.submitbutton {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+}

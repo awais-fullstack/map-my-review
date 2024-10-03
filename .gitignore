@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+*.env.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/log
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Heroku
+/.profile.d
+heroku-debug.log
+
+# Build directories
+build/
+dist/
+
+# Ignore specific files or directories for the backend
+/api/node_modules/
+/api/.env
+/api/logs/
+/api/build/
+
+# Ignore specific files or directories for the frontend
+/client/node_modules/
+/client/.env
+/client/build/

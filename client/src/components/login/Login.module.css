@@ -1,0 +1,47 @@
+.container {
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.logo {
+    color: teal;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: teal;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.cancel {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
