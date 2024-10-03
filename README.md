@@ -50,7 +50,7 @@ The project is divided into two main folders:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/may-my-review.git
+   git clone https://github.com/awais-fullstack/map-my-review.git
    ```
 
 2. Navigate to the `api` folder to install backend dependencies:
@@ -69,11 +69,17 @@ The project is divided into two main folders:
 ## Environment Variables
 
 Create a `.env` file in the `api` folder with the following keys:
+
+```
 MONGO_URL = your-mongodb-url
 PORT = 8800
+```
 
 Create a `.env` file in the `client` folder with the following keys:
+
+```
 REACT_APP_MAPBOX = your-mapbox-token
+```
 
 ## Running Locally
 
@@ -102,7 +108,7 @@ Check out the live application here:
 
 ## Deployment on Heroku
 
-## Make sure you in your mongob trefic is allowed from all ips
+## Make sure in your MongoDB trefic is allowed from all ips
 
 1. Move `client` directory to `api`
 
@@ -132,7 +138,7 @@ baseURL: "your-heroku-project-url/api/"
 
 5. Download and install the Heroku CLI.
 
-6. If you haven't already, log in to your Heroku account.
+6. Log in to your Heroku account.
 
 ```
 $ heroku login
